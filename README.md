@@ -23,9 +23,6 @@ You will need a recent GHC HEAD. I am using `cabal-install-3.6.2.0` in the steps
 Here are all the steps together:
 
 ```
-$ ls
-ghc-bug.cabal  Lib.hs
-
 $ cabal build -w ~/Software/ghc-9.3.20211203/bin/ghc --constraint="base-orphans==0.8.6"
 Resolving dependencies...
 Build profile: -w ghc-9.3.20211203 -O1
